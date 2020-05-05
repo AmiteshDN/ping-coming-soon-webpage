@@ -1,0 +1,57 @@
+body{
+  text-align: center;
+  color: hsl(0, 0%, 59%);
+  font-size: 10px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+hr{
+  visibility: hidden;
+}
+
+ .button{
+   padding: 10px 40px;
+   margin-left: 20px;
+   background-color:hsl(223, 87%, 63%);
+   color: #fff;
+   border: none;
+   border-radius: 80px;
+   box-shadow: 1px 5px 10px #9aceff;
+ }
+ .button:hover{
+   color: black;
+ }
+ @media (max-width : 576px) {
+   .button{
+     display: block;
+     width: 55%;
+     margin: auto;
+     margin-top: 10px;
+
+
+   }
+}
+
+ img{
+   width: 40%;
+   margin: auto;
+   padding: 50px;
+   display: block;
+ }
+ @media (max-width: 576px){
+   img{
+     width:80%;
+   }
+ }
+ .svg{
+  margin:20px;
+ }
+.input{
+  margin-top: 30px;
+}
+ .contact{
+   color: hsl(0, 0%, 59%);
+   border: 1px solid hsl(0, 0%, 59%);
+   border-radius: 80px;
+   padding: 10px 120px 10px 20px;
+ }
